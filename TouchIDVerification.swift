@@ -9,9 +9,8 @@ guard authenticationContext.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiom
         
 authenticationContext.evaluatePolicy(LAPolicy.deviceOwnerAuthenticationWithBiometrics, 
             localizedReason: "Only device owner is allowed", reply: { (success, error) -> Void in
-            
             if( success ) {
-                print("Fingerprint recognized. You are a device owner!")
+                print("Fingerprint recognized.")
                 //Call you Custom Functions
             } else {
                 // Check if there is an error
@@ -19,4 +18,4 @@ authenticationContext.evaluatePolicy(LAPolicy.deviceOwnerAuthenticationWithBiome
                     print("Error took place. \(errorObj.localizedDescription)")
                 }  
             }
-        })
+})

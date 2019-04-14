@@ -5,3 +5,4 @@ Code Snippets developed on Swift for iOS
 * NSUserDefaultsSnippet.swift
 * UISliderSwift.swift
 * RemoteImageLoad.swift
+* FilterPredicateClosure.swift

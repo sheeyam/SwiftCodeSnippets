@@ -1,13 +1,16 @@
 import Foundation
 
+// Find Number greater than 3
 func greaterThanThree(value: Int) -> Bool {
     return value > 3
 }
 
+// Number Divided by 5
 func divisionByFive(value: Int) -> Bool {
     return value % 5 == 0
 }
 
+//Closure Function
 func filterwithPredicateClosure(closure: (Int) -> Bool, numbers: [Int]) -> [Int]{
     var filteredSetOfNUms = [Int]()
     for num in numbers {

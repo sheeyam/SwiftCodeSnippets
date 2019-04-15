@@ -6,3 +6,4 @@ Code Snippets developed on Swift for iOS
 * UISliderSwift.swift
 * RemoteImageLoad.swift
 * FilterPredicateClosure.swift
+* FibonacciSwift.swift
